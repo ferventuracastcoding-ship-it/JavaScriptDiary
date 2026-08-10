@@ -1,4 +1,4 @@
-class Node {
+class Space {
     constructor(data) {
         this.data = data;
         this.next = null;
@@ -11,7 +11,7 @@ class LinkedList {
     }
 
     add(data) {
-        const newNode = new Node(data);
+        const newNode = new Space(data);
 
         if (!this.head) {
             this.head = newNode;
