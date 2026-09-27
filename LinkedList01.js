@@ -1,3 +1,4 @@
+// Explaining the this keyword
 class Node {
     constructor(data) {
         this.data = data;
