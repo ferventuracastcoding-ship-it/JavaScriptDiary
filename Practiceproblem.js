@@ -2,7 +2,7 @@
 function getCitizenship(age, yearsResident, hasGreenCard, passedTest) {
     // Check whether all requirements are satisfied
     if (
-        age >= 18 &&
+        age >= 35 &&
         yearsResident >= 5 &&
         hasGreenCard === true &&
         passedTest === true
@@ -16,7 +16,7 @@ function getCitizenship(age, yearsResident, hasGreenCard, passedTest) {
 
 // Example
 console.log(
-    getCitizenship(25, 6, true, true)
+    getCitizenship(35, 6, true, true)
 );
 
 // Output:
